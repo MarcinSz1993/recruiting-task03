@@ -1,0 +1,8 @@
+spring:
+  git:
+    api:
+      urlToGetRepositoriesForUser: https://api.github.com/users/
+      urlToGetBranchesFromUserRepo: https://api.github.com/repos/
+      urlToGetUserByUsername: https://api.github.com/users/
+
+    access-token: ${GIT_HUB_ACCESS_TOKEN}
